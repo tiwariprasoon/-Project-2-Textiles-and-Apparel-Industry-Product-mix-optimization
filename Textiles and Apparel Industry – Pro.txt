@@ -1,0 +1,102 @@
+Textiles and Apparel Industry – Product mix optimization
+Course-end Project 2
+Description
+
+Problem Statement:
+
+Sankalp Woolen Limited is a start-up company based in Uttarakhand, India. In recent months, it has sold two categories of products, i.e., sweaters and blazers. The sweaters are sourced from Abhilash Limited and Bikash Limited. On the other hand, Candida Limited and Dharma Limited are blazer suppliers. Additionally, these suppliers agree to quote a fixed price for their goods, subject to the purchase of a minimum number of products. However, the cost of sweaters and blazers varies depending on the size. Additionally, all suppliers have different shipping policies. At the start of the business, promoters of Sankalp Woolen Limited randomly sourced sweaters and blazers from the above suppliers without understanding the need for optimization. One of his promoters at Sankalp Woolen Limited recently attended a prescription analytics seminar and realized that his organization needed to formulate an optimization strategy for its chain of supply.
+
+Objective:
+
+In this case study, Sankalp Limited has hired the services of the ABC consultant to fine-tune its supply chain. Its purpose is to demonstrate how crucial supplier selection is to an organization. This case provides an opportunity to understand the importance of linear programming in selecting the right product mix from the right set of suppliers.
+
+Data Description:
+
+In addition to reviewing historical records, consultants conducted interviews with project sponsors to assess and understand supplier-related issues. Table 1 shows the per-piece price that the supplier charges to Sankalp Woolen Limited for various sizes.
+
+ 
+
+Table 1. Price per piece charged by suppliers
+
+Supplier	Size	Price Per Piece
+Abhilash Limited	Small (S)	200
+Abhilash Limited	Medium (M)	220
+Abhilash Limited	Large (L)	250
+Abhilash Limited	Extra large (XL)	270
+Bikash Limited	S	240
+Bikash Limited	M	180
+Bikash Limited	L	230
+Bikash Limited	XL	250
+Candida Limited	S	100
+Candida Limited	M	100
+Candida Limited	L	115
+Candida Limited	XL	120
+Candida Limited	Double extra large (XXL)	140
+Dharma Limited	S	105
+Dharma Limited	M	110
+Dharma Limited	L	125
+Dharma Limited	XL	130
+Dharma Limited	XXL	145
+By policy, Abhilash Limited and Bikash Limited will only deliver orders with a minimum quantity of 15 and 5 items ordered, respectively. On the other hand, Candida Limited does not maintain an order size of fewer than 35 pieces. Also, the minimum order quantity for Dharma Limited is 30 pieces.
+
+ 
+
+Based on Sankalp Woolen Limited's historical records, the demand for various products is shown in Table 2 below.
+
+Table 2. Demand for the products
+
+Product	Size	Demand
+Sweaters	S	30
+Sweaters	M	20
+Sweaters	L	35
+Sweaters	XL	15
+Blazers	S	45
+Blazers	M	50
+Blazers	L	60
+Blazers	XL	35
+Blazers	XXL	25
+Additionally, from previous records, we infer that Abhilash Limited offers free shipping on orders with a minimum quantity of 15 pieces. Table 3 and Table 4 show the shipping structures of Bikash Limited and Candida Limited respectively. Also note that Dharma Limited charges a commission of only Rs. 120 for orders with lot sizes between 30 and 45 pieces. Dharma Limited offers free shipping on orders of 45 pieces or more.
+
+ 
+
+Table 3. Shipping charges of Bikash Limited
+
+Total Shipping Charge	Lot size
+200	5-10
+300	11-24
+500	25-40
+800	41-55
+990	56-68
+1200	69-75
+1500	76-95
+1880	96-120
+2100	120-150
+2500	More than 150
+ 
+
+Table 4. Shipping charges of Candida Limited
+
+Total Shipping Charge	Lot size
+300	35-60
+400	61-75
+675	76-90
+890	91-105
+1290	106-120
+1600	121-135
+1800	136-150
+2080	151-180
+2300	181-200
+2800	More than 200
+Note: 
+
+Promoters of Sankalp Woolen Limited would like to take advantage of free shipping from Abhilash Limited and Dharma Limited. In addition, shipping charges from Bikash Limited and Candida Limited should not exceed Rs. 1000 each.
+
+ 
+
+Questions:
+
+ 
+
+As the manager, determine how many products ABC Consultant should order from each supplier
+Comment on the total optimal cost that should be incurred in the present case
+ 
